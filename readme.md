@@ -1,5 +1,8 @@
 # Improved Nano Syntax Highlighting Files
 
+[![shellcheck](https://github.com/davidhcefx/nanorc/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/davidhcefx/nanorc/actions/workflows/shellcheck.yml)
+[![test](https://github.com/davidhcefx/nanorc/actions/workflows/test.yml/badge.svg)](https://github.com/davidhcefx/nanorc/actions/workflows/test.yml)
+
 This repository holds ``{lang}.nanorc`` files that have improved definitions of syntax highlighting for various languages.
 
 This repository is forked from [github.com/scopatz/nanorc](https://github.com/scopatz/nanorc) after almost 2 years of no activity from the maintainer.
