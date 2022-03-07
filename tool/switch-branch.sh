@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-cd "$(dirname "$0")/../"
+cd "$(dirname "$0")/../" || exit 1
 
 verstr=$(nano --version 2>/dev/null | awk '/GNU nano/ {print ($3=="version")? $4: substr($5,2)}')
 branch=$(./install.sh --find_suitable_branch)

@@ -37,7 +37,7 @@ _version_str_to_num() {
   if [ -z "$1" ]; then
     return
   fi
-  printf "$1" | awk -F . '{printf("%d%02d%02d", $1, $2, $3)}'
+  echo -n "$1" | awk -F . '{printf("%d%02d%02d", $1, $2, $3)}'
 }
 
 _find_suitable_branch() {
