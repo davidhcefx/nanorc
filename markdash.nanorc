@@ -1,0 +1,62 @@
+## Syntax highlighting for Markdown-dash files
+## (markdown plus dashed headlines, topics and bash-style comments)
+## Written by davidhcefx, 2020.7.21.
+
+syntax markdash "\.mdsh$"
+comment "<!--|-->"
+
+# Tables (Github extension)
+#color cyan ".*[ :]\|[ :].*"
+
+# Quotes
+color brightblack  start="^>" end="^$"
+color brightblack  "^>.*"
+
+# Emphasis and strong
+color green "(^|[[:space:]])(_[^ ][^_]*_|\*[^ ][^*]*\*)"
+color brightgreen "(^|[[:space:]])(__[^ ][^_]*__|\*\*[^ ][^*]*\*\*)"
+
+# Strike-through
+color red "(^|[[:space:]])~~[^ ][^~]*~~"
+
+# Horizontal rules
+color brightmagenta "^(---+|===+|___+|\*\*\*+)\s*$"
+
+# Headlines and dashed headlines (eg. --- Header ---)
+color brightmagenta  "^#{1,6}.*"
+color brightmagenta "^(==+).*(==+)$"
+color brightmagenta "^(--+).*(--+)$"
+
+# Topics (eg. ^TopicA:\s)
+color brightred "^([^:："`[:space:]\\]|"([^"]|\\")*"|`[^`]+`)([^:："`]|"([^"]|\\")*"|`[^`]+`)*(:(\s|$)|：)"
+
+# Lists
+color bold,blue   "^[[:space:]]*[\*+-] |^[[:space:]]*[0-9]+\. "
+
+# Leading whitespace
+color black    "^[[:space:]]+"
+
+# Misc
+color magenta   "\(([CcRr]|[Tt][Mm])\)" "\.{3}" "(^|[[:space:]])\-\-($|[[:space:]])"
+
+# Links and images
+color brightblue "\[[^]]+\]"
+color brightblue "\[([^][]|\[[^]]*\])*\]\([^)]+\)"
+color magenta "!\[[^][]*\](\([^)]+\)|\[[^]]+\])"
+
+# URLs
+color brightyellow "https?://[^ )>]+"
+
+# Code (ignore indentation)
+color yellow   "`[^`]*`"
+# Code blocks
+color yellow start="```" end="```$"
+color yellow "^```$"
+
+# HTML tags and comments
+color cyan "<[^>]+>"
+color cyan start="<!--" end="-->"
+color cyan "([[:space:]])#[[:space:]].*"
+
+## Trailing spaces
+color ,green "[[:space:]]+$"
