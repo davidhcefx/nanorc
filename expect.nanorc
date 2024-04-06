@@ -1,7 +1,7 @@
 syntax "EXPECT" "\.exp$"
 header "^#!.*/(env +)?expect( |$)"
 
-magic "Expect script"
+# & "Expect script"
 # & "#"
 
 ## Standard Expect [info commands]

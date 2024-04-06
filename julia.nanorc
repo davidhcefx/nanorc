@@ -2,7 +2,7 @@
 
 syntax "julia" "\.jl$"
 header "^#!.*/(env +)?julia[-0-9._]*( |$)"
-magic "Julia"
+# & "Julia"
 # & "#"
 
 ## buildin keywords

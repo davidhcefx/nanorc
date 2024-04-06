@@ -13,7 +13,7 @@
 
 # Automatically use for '.lua' files
 syntax "Lua" ".*\.lua$"
-magic "Lua script"
+# & "Lua script"
 # & "--"
 
 # & luacheck --no-color

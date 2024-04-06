@@ -2,7 +2,7 @@
 ## For Scott's bro-mode.el, go to https://github.com/srunnels/bro-mode/blob/master/bro-mode.el
 
 syntax "zeek" "\.zeek$"
-magic "(POSIX|Bourne.*) shell script text"
+# & "(POSIX|Bourne.*) shell script text"
 header "^#!.*/(ba|k|pdk)?sh[-0-9_]*"
 icolor brightgreen "^[0-9A-Z_]+\(\)"
 
