@@ -20,7 +20,7 @@ color brightmagenta "\<(False|None|True)\>"
 
 # Mono-quoted strings.
 color brightyellow "'([^'\]|\\.)*'|"([^"\]|\\.)*"|'''|""""
-color normal "'''|""""
+color white "'''|""""
 # Comments.
 color brightred "(^|[[:blank:]])#.*"
 # variable

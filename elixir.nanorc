@@ -34,7 +34,7 @@ color green "'([^']|(\\'))*'"
 
 ## Expression substitution.  These go inside double-quoted strings,
 ## "like #{this}".
-color normal "#\{[^}]*\}"
+color white "#\{[^}]*\}"
 
 ## Comments
 color cyan "(^|[[:space:]])#([^{].*|)$"
