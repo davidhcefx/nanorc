@@ -35,7 +35,7 @@ jobs:
         run: |
           mkdir -p ~/.nano/
           cp -al *.nanorc ~/.nano/
-          echo "" | TERM=xterm timeout 1s nano --rcfile ./nanorc >/dev/null 2>error.txt || true
+          TERM=xterm timeout 1s nano --rcfile ./nanorc >/dev/null 2>error.txt </dev/null || true
           if grep -v -e "Received SIGHUP or SIGTERM" -e "Too many errors from stdin" \
                     -e "Standard input is not a terminal" error.txt; then
             exit 1
