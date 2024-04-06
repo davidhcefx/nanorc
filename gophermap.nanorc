@@ -1,6 +1,6 @@
 ## syntax for gophernicus gophermaps
 
-syntax gophermap "\.(gophermap|gph)$"
+syntax "gophermap" "\.(gophermap|gph)$"
 
 
 # Port Numbers

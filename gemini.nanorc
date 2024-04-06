@@ -1,6 +1,6 @@
 ## syntax highlighting for gemini:// markup language
 
-syntax gemini "\.(gemini|gmi)$"
+syntax "gemini" "\.(gemini|gmi)$"
 
 # Heading levels
 color brightgreen "^#.*"

@@ -4,7 +4,7 @@
 # Version: 1.0.0
 # License: MIT
 
-syntax v "\.(v|c.v|.vsh|.vv)$"
+syntax "v" "\.(v|c.v|.vsh|.vv)$"
 
 # Operators
 color brightred "(\+|-|\*|/|%|~|&|(\|)|^|!|<|>|:=|=|\?|\.)"

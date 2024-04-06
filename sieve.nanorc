@@ -7,7 +7,7 @@
 #	Spec Drafts	{ IETF Sieve Regex,Martin Sieve Notify
 #				  Melnikov Sieve IMAPFlags			   }
 
-syntax Sieve "\.(siv|sieve)$"
+syntax "Sieve" "\.(siv|sieve)$"
 
 #-----------------------------#
 

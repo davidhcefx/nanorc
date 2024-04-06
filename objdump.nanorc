@@ -1,6 +1,6 @@
 ## Here is an example for objdump output.
 ##
-syntax objdump "(\.)?obj$"
+syntax "objdump" "(\.)?obj$"
 # & "# "
 
 color red "\<[A-Z_]{2,}\>"
