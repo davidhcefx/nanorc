@@ -2,7 +2,7 @@
 ##
 syntax "ASM" "\.(S|s|asm)$"
 magic "assembler source"
-comment "//"
+# & "//"
 
 color red "\<[A-Z_]{2,}\>"
 color brightgreen "\.(data|subsection|text)"

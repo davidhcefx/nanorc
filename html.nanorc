@@ -2,7 +2,7 @@
 
 syntax "HTML" "\.html?(.j2)?(.twig)?$"
 magic "HTML document"
-comment "<!--|-->"
+# & "<!--|-->"
 # & "  "
 
 ## Emphasis tags

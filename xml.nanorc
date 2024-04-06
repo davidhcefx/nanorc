@@ -4,7 +4,7 @@
 syntax "XML" ".*\.([jrs]?html?|xml|sgml?|rng|vue|mei|musicxml)$"
 header "<\?xml.*version=.*\?>"
 magic "(XML|SGML) (sub)?document"
-comment "<!--|-->"
+# & "<!--|-->"
 
 color white "^.+$"
 # Attributes

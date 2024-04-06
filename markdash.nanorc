@@ -3,7 +3,7 @@
 ## Written by davidhcefx, 2020.7.21.
 
 syntax markdash "\.mdsh$"
-comment "<!--|-->"
+# & "<!--|-->"
 
 # Tables (Github extension)
 #color cyan ".*[ :]\|[ :].*"

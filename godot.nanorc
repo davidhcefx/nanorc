@@ -2,7 +2,7 @@
 
 syntax gdscript "\.gd$"
 magic "Godot script"
-comment "#"
+# & "#"
 
 # Function definitions.
 color brightblue "func [0-9A-Za-z_]+"

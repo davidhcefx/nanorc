@@ -1,5 +1,5 @@
 syntax "haskell" "\.hs$"
-comment "--"
+# & "--"
 
 ## Keywords
 color red "\<(as|case|of|class|data|default|deriving|do|forall|foreign|hiding|if|then|else|import|infix|infixl|infixr|instance|let|in|mdo|module|newtype|qualified|type|where)\>"

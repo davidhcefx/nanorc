@@ -1,7 +1,7 @@
 ## Here is an example for objdump output.
 ##
 syntax objdump "(\.)?obj$"
-comment "# "
+# & "# "
 
 color red "\<[A-Z_]{2,}\>"
 color brightgreen "\.(data|subsection|text)"

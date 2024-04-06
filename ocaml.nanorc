@@ -2,7 +2,7 @@
 
 syntax "OCaml" "\.mli?$"
 magic "OCaml"
-comment "(*|*)"
+# & "(*|*)"
 
 #uid
 color red "\<[A-Z][0-9a-z_]{2,}\>"
