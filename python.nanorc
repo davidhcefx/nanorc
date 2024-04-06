@@ -5,7 +5,7 @@ header "^#!.*/(env +)?python[-0-9._]*( |$)"
 magic "Python script"
 # & "#"
 
-linter pyflakes
+# & pyflakes
 
 ## built-in objects
 color cyan "\<(None|self|True|False)\>"

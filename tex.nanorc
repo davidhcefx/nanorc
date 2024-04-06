@@ -4,7 +4,7 @@ syntax "TeX" "\.tex$" "bib" "\.bib$" "cls" "\.cls$"
 magic "(La)?TeX document"
 # & "%"
 
-linter chktex -v0 -q -I
+# & chktex -v0 -q -I
 
 color yellow "\$(\\\$|[^$])*[^\\]\$"
 color yellow "\$\$(\\\$|[^$])*[^\\]\$\$"
