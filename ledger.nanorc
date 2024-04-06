@@ -12,6 +12,6 @@ color cyan "(\t| )\b\w*\ ?\w*(:\w*\ ?\w*\w*){1,}\b"
 # double quotes and transaction flags
 color red "[*!@\"]"
 # text within double quotes
-color pink "\"(.*?)\""
+color brightred "\"(.*?)\""
 # comments
 color brightblack "(^|\s)(;|#|%|\|).*"

@@ -15,6 +15,6 @@ color cyan "\b[A-Z]+\b"
 # double quotes and transaction flags
 color red "[*!@\"]"
 # text within double quotes
-color pink "\"(.*?)\""
+color brightred "\"(.*?)\""
 # comments
 color brightblack "(^|\s);.*"
