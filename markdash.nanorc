@@ -31,7 +31,7 @@ color brightmagenta "^(--+).*(--+)$"
 color brightred "^([^:："`[:space:]\\]|"([^"]|\\")*"|`[^`]+`)([^:："`]|"([^"]|\\")*"|`[^`]+`)*(:(\s|$)|：)"
 
 # Lists
-color bold,blue   "^[[:space:]]*[\*+-] |^[[:space:]]*[0-9]+\. "
+color blue   "^[[:space:]]*[\*+-] |^[[:space:]]*[0-9]+\. "
 
 # Leading whitespace
 color black    "^[[:space:]]+"
