@@ -1,4 +1,5 @@
-syntax "Makefile" "([Mm]akefile|\.ma?k)$"
+#syntax "Makefile" "([Mm]akefile|\.ma?k)$"
+syntax "Makefile" "([Mm]akefile|\.ma?k)$" "(^|/)(Makefile|make_include)\..+"
 header "^#!.*/(env +)?[bg]?make( |$)"
 magic "makefile script"
 comment "#"
