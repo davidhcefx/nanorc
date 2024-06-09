@@ -13,7 +13,7 @@
 
 syntax "JavaScript" "\.(m?js|ts|javascript|typescript)$"
 header "^#!.*\/(env +)node"
-comment "//"
+# & "//"
 
 ## Default
 color white "^.+$"

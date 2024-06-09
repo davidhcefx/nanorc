@@ -5,7 +5,7 @@
 
 
 syntax "Rust" "\.rs$"
-comment "//"
+# & "//"
 
 # function definition
 color magenta "fn [a-z0-9_]+"

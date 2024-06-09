@@ -2,7 +2,7 @@
 ##
 syntax "TeX" "\.tex$" "bib" "\.bib$" "cls" "\.cls$"
 magic "(La)?TeX document"
-comment "%"
+# & "%"
 
 linter chktex -v0 -q -I
 

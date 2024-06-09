@@ -2,7 +2,7 @@
 ##
 syntax "Java" "\.java$"
 magic "Java "
-comment "//"
+# & "//"
 
 color green "\<(boolean|byte|char|double|float|int|long|new|short|this|transient|void)\>"
 color red "\<(break|case|catch|continue|default|do|else|finally|for|if|return|switch|throw|try|while)\>"

@@ -4,7 +4,7 @@ syntax "Patch" "\.(patch|diff)$"
 header "^diff\>"
 magic "diff output"
 # You can't add comments in patch files.
-comment ""
+# & ""
 
 color brightgreen "^\+.*"
 color green "^\+\+\+.*"

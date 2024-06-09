@@ -3,7 +3,7 @@
 syntax "python" "\.py$"
 header "^#!.*/(env +)?python[-0-9._]*( |$)"
 magic "Python script"
-comment "#"
+# & "#"
 
 linter pyflakes
 
