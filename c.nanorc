@@ -3,7 +3,7 @@
 syntax "C" "\.(c(c|pp|xx)?|C)$" "\.(h(h|pp|xx)?|H)$" "\.ii?$" "\.(def)$" "\.ino$"
 magic "^(C|C\+\+) (source|program)"
 
-linter g++ -fshow-column
+# & g++ -fshow-column
 
 # & "//"
 color brightred "\<[A-Z_][0-9A-Z_]+\>"
