@@ -1,7 +1,7 @@
 ## Here is an example for Java.
 ##
 syntax "Java" "\.java$"
-magic "Java "
+# & "Java "
 # & "//"
 
 color green "\<(boolean|byte|char|double|float|int|long|new|short|this|transient|void)\>"

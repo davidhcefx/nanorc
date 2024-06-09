@@ -2,7 +2,7 @@
 ##
 syntax "Ruby" "\.rb$" "Gemfile$" "config.ru$" "Rakefile$" "Capfile$" "Vagrantfile$"
 header "^#!.*/(env +)?ruby( |$)"
-magic "Ruby script"
+# & "Ruby script"
 # & ruby -w -c
 # & "#"
 

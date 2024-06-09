@@ -1,6 +1,6 @@
 ## D programming Language
 syntax "D" "\.d$"
-magic "^(D) (source|program)"
+# & "^(D) (source|program)"
 # & "//"
 color green "\<(cast|void|bool|byte|ubyte|enum|short|ushort|interface|int|uint|long|ulong|float|double|real|char|wchar|dchar|struct|union|class|function|delegate|template|immutable)\>"
 color green "\<(for|if|while|do|else|case|default|switch|foreach|foreach_reverse|with)\>"

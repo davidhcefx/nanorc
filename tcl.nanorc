@@ -1,7 +1,7 @@
 syntax "TCL" "\.tcl$"
 header "^#!.*/(env +)?tclsh( |$)"
 
-magic "Tcl(/Tk)? script"
+# & "Tcl(/Tk)? script"
 # & "#"
 
 ## Standard Tcl [info commands]

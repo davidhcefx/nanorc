@@ -1,7 +1,7 @@
 ## PHP Syntax Highlighting
 syntax "PHP" "\.php[2345s~]?$|\.module$"
 header "^#!.*php"
-magic "PHP script"
+# & "PHP script"
 # & "//"
 
 # Default

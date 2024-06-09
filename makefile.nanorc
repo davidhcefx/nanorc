@@ -1,6 +1,6 @@
 syntax "Makefile" "([Mm]akefile|\.ma?k)$"
 header "^#!.*/(env +)?[bg]?make( |$)"
-magic "makefile script"
+# & "makefile script"
 # & "#"
 # & "	"
 

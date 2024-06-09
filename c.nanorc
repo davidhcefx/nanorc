@@ -1,7 +1,7 @@
 ## Here is an example for C/C++.
 ##
 syntax "C" "\.(c(c|pp|xx)?|C)$" "\.(h(h|pp|xx)?|H)$" "\.ii?$" "\.(def)$" "\.ino$"
-magic "^(C|C\+\+) (source|program)"
+# & "^(C|C\+\+) (source|program)"
 
 # & g++ -fshow-column
 

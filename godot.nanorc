@@ -1,7 +1,7 @@
 ## Syntax highlighting for Godot.
 
 syntax "gdscript" "\.gd$"
-magic "Godot script"
+# & "Godot script"
 # & "#"
 
 # Function definitions.
