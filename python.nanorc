@@ -1,7 +1,7 @@
 ## Python syntax highlighting rules for Nano
 
 syntax "python" "\.py$"
-header "^#!.*/(env +)?python[-0-9._]*( |$)"
+# & "^#!.*/(env +)?python[-0-9._]*( |$)"
 # & "Python script"
 # & "#"
 

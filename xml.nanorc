@@ -2,7 +2,7 @@
 ##
 
 syntax "XML" ".*\.([jrs]?html?|xml|sgml?|rng|vue|mei|musicxml)$"
-header "<\?xml.*version=.*\?>"
+# & "<\?xml.*version=.*\?>"
 # & "(XML|SGML) (sub)?document"
 # & "<!--|-->"
 

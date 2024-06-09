@@ -1,5 +1,5 @@
 syntax "AWK" "\.awk$"
-header "^#!.*bin/(env +)?awk( |$)"
+# & "^#!.*bin/(env +)?awk( |$)"
 # & "awk script"
 # & "#"
 

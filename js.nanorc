@@ -12,7 +12,7 @@
 ## New updated taken from http://wiki.linuxhelp.net/index.php/Nano_Syntax_Highlighting
 
 syntax "JavaScript" "\.(m?js|ts|javascript|typescript)$"
-header "^#!.*\/(env +)node"
+# & "^#!.*\/(env +)node"
 # & "//"
 
 ## Default

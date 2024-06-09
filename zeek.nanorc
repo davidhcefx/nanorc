@@ -3,7 +3,7 @@
 
 syntax "zeek" "\.zeek$"
 # & "(POSIX|Bourne.*) shell script text"
-header "^#!.*/(ba|k|pdk)?sh[-0-9_]*"
+# & "^#!.*/(ba|k|pdk)?sh[-0-9_]*"
 icolor brightgreen "^[0-9A-Z_]+\(\)"
 
 color cyan "(usec|msec|sec|min|hr|day)s?\b"

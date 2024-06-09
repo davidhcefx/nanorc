@@ -1,5 +1,5 @@
 syntax "SED" "\.sed$"
-header "^#!.*bin/(env +)?sed( |$)"
+# & "^#!.*bin/(env +)?sed( |$)"
 
 color red "[|^$.*+]"
 color brightyellow "\{[0-9]+,?[0-9]*\}"

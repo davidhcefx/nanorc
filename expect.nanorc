@@ -1,5 +1,5 @@
 syntax "EXPECT" "\.exp$"
-header "^#!.*/(env +)?expect( |$)"
+# & "^#!.*/(env +)?expect( |$)"
 
 # & "Expect script"
 # & "#"

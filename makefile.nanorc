@@ -1,5 +1,5 @@
 syntax "Makefile" "([Mm]akefile|\.ma?k)$"
-header "^#!.*/(env +)?[bg]?make( |$)"
+# & "^#!.*/(env +)?[bg]?make( |$)"
 # & "makefile script"
 # & "#"
 # & "	"

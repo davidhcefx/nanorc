@@ -1,5 +1,5 @@
 syntax "TCL" "\.tcl$"
-header "^#!.*/(env +)?tclsh( |$)"
+# & "^#!.*/(env +)?tclsh( |$)"
 
 # & "Tcl(/Tk)? script"
 # & "#"
