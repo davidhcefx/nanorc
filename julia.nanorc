@@ -32,7 +32,7 @@ color yellow start="[rb]?["]" end="["]" start="[rb]?["]{3}" end="["]{3}"
 color yellow "[']\\?[^' ][']"
 
 ## string interpolation
-color normal "\$\([^)]*\)"
+color white "\$\([^)]*\)"
 
 ## external commands
 color red start="`" end="`"
