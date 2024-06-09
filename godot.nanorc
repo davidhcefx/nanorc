@@ -28,8 +28,8 @@ color brightgreen "\<(var|export|export_category)\>"
 
 
 # Backslash escapes.
-color lime "\\($|[\'"abfnrtv]|[0-3]?[0-7]?[0-7]|x[[:xdigit:]]{2})"
-color lime "\\(N\{[[:alpha:]]+\}|u[[:xdigit:]]{4}|U[[:xdigit:]]{8})"
+color green "\\($|[\'"abfnrtv]|[0-3]?[0-7]?[0-7]|x[[:xdigit:]]{2})"
+color green "\\(N\{[[:alpha:]]+\}|u[[:xdigit:]]{4}|U[[:xdigit:]]{8})"
 
 # Reminders.
 color brightwhite,yellow "\<(FIXME|TODO|XXX)\>"
