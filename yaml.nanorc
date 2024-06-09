@@ -7,7 +7,7 @@ header "^---" "%YAML"
 color green "(:|^|\s)+\S+"
 
 # Keys
-color red "(^|\s+).*+\s*:(\s|$)"
+color red "(^|\s+).*\+\s*:(\s|$)"
 
 # Special values
 color yellow "[:-]\s+(true|false|null)\s*$"

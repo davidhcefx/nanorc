@@ -9,7 +9,7 @@ syntax "x11basic" "\.(bas|xbas|LST|BAS)$"
 
 # Variable names
 
-icolor brightwhite "\<[A-Z_][A-Za-z0-9_]*(|\$|\%|\&|\||\(\))\>"
+icolor brightwhite "\<[A-Z_][A-Za-z0-9_]*(\$|\%|\&|\||\(\))\>"
 
 # system vars
 icolor cyan "\<(CCSAPLID|CCSERR|COLS|CRSCOL|CRSLIN|CTIMER|ERR|FALSE)\>"

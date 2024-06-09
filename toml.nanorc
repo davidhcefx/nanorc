@@ -15,7 +15,7 @@ color brightgreen "[a-zA-Z0-9_]*(\.[a-zA-Z0-9_]+)*"
 color ,red "^[[:space:]]*\[\]"
 color ,red "^[[:space:]]*\[[a-zA-Z0-9_]\.\]"
 color ,red "^[[:space:]]*\[.*\.\..*\]"
-color ,red "^[[:space:]]*\[\..*?\]"
+color ,red "^[[:space:]]*\[\..*"
 
 # Strings
 color brightyellow ""(\.|[^"])*"" "'(\.|[^'])*'"
