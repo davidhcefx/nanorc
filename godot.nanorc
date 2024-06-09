@@ -1,6 +1,6 @@
 ## Syntax highlighting for Godot.
 
-syntax gdscript "\.gd$"
+syntax "gdscript" "\.gd$"
 magic "Godot script"
 comment "#"
 

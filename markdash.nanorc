@@ -2,7 +2,7 @@
 ## (markdown plus dashed headlines, topics and bash-style comments)
 ## Written by davidhcefx, 2020.7.21.
 
-syntax markdash "\.mdsh$"
+syntax "markdash" "\.mdsh$"
 comment "<!--|-->"
 
 # Tables (Github extension)
