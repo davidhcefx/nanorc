@@ -1,0 +1,26 @@
+name: list-autogen
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  autogen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run include-list-gen
+        run: ./tool/include-list-gen.sh
+
+      - name: Update when there's a difference
+        run: |
+          if ! git diff -s --exit-code nanorc; then
+            git add nanorc
+            git commit -m 'enh(install): update the syntax list'
+
+            # TODO: pull request?
+            exit 1
+          fi

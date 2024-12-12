@@ -1,4 +1,3 @@
-include "~/.nano/Brewfile.nanorc"
 include "~/.nano/Dockerfile.nanorc"
 include "~/.nano/Rnw.nanorc"
 include "~/.nano/apacheconf.nanorc"
